@@ -1,5 +1,5 @@
-// import logo from "./logo.svg";
 import "./App.css";
+import { Cards } from "./components/Card";
 
 function App() {
   return (
