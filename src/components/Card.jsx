@@ -8,18 +8,18 @@ export const Cards = () => {
     <div
       className=" flex-col lg:flex-row max-lg:h-[42rem] max-sm:w-[80%] max-sm:h-[35rem]
       flex justify-center shadow-2xl mt-40 rounded-2xl max-md:rounded-3xl
-       bg-white h-[600px] w-[40%]
+       bg-white h-[600px] w-[40%] 
         m-auto">
       {/* image */}
 
       <div className=" ">
         <img
-          className="h-[100%] max-lg:hidden   w-[900px] 
+          className="h-[100%] max-lg:hidden w-[900px] 
           rounded-l-2xl  "
           src={photo}
         />
         <img
-          className="max-lg:h-[300px] max-sm:h-[200px] xl:hidden max-sm:w-[100%]  lg:hidden 2xl:hidden max-lg:rounded-none  max-lg:rounded-t-2xl"
+          className="max-lg:h-[300px]  max-sm:h-[200px] xl:hidden max-sm:w-[100%]  lg:hidden 2xl:hidden max-lg:rounded-none  max-lg:rounded-t-2xl"
           src={photos}
         />
       </div>
@@ -39,13 +39,13 @@ export const Cards = () => {
           Gabrielle Essence Eau De Parfum
         </h1>
         <p
-          className="text-[14px] max-lg:mt-3 text-[#6C7289] 
-        max-lg:w-[18.2rem] max-lg:leading-6 leading-[30px] max-sm:w-[250px] max-sm:text-[12px]
+          className="text-[14px] max-lg:mt-3 text-[#6C7289] w-[292px]
+        max-lg:w-[18.2rem] max-lg:leading-6 max-md:w-[15rem] leading-[30px] max-sm:w-[250px] max-sm:text-[12px]
          mt-10 w-[69%] font-montserrat">
           A floral, solar and voluptuous interpretation composed by Olivier
           Polge, Perfumer-Creator for the House of CHANEL.
         </p>
-        <p className="mt-10 max-lg:mt-5 ">
+        <p className="mt-10 max-lg:mt-5 flex items-center">
           <span className="font-fraunces max-sm:text-[25px] text-5xl text-[#52AD8C] max-lg:text-[2.2rem]">
             $ 149.99
           </span>
@@ -55,7 +55,7 @@ export const Cards = () => {
         </p>
         <button
           className="flex max-lg:mt-5 max-lg:mb-14 w-[300px] rounded-md mt-8 bg-green-900 m-auto ml-2
-            text-white p-4 justify-center text-[#52AD8C] max-sm:w-10/12"
+            text-white p-4 justify-center text-[#52AD8C] max-sm:w-10/12 max-md:w-10/12"
           type="button">
           <span className="mr-3">
             <ShoppingCart />
