@@ -2,11 +2,7 @@ import "./App.css";
 import { Cards } from "./components/Card";
 
 function App() {
-  return (
-    <div>
-      <Cards />
-    </div>
-  );
+  return <Cards />;
 }
 
 export default App;
